@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Envoi SMS</string>
+
+    <!-- formulaire -->
+    <string name="label_phone">Numéro :</string>
+    <string name="hint_phone">Entrez les numéros</string>
+    <string name="label_message">Message</string>
+    <string name="hint_message">Tapez le message.</string>
+    <string name="submit_button">Envoyer le message</string>
+
+    <!-- style -->
+    <dimen name="margin">16dp</dimen>
+
+
+</resources>
