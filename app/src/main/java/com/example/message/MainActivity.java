@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         // validating message length (should be > 0)
         if (message.length() < 1) {
             Toast.makeText(getApplicationContext(), "Veuillez écrire un message", Toast.LENGTH_LONG).show();
+            return;
         }
 
         // check permissions to send SMS
